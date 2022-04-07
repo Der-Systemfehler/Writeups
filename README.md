@@ -1,2 +1,2 @@
 # Writeups
-A Collection of Writeups from me
+A Collection of Writeups
