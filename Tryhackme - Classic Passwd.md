@@ -31,9 +31,11 @@ We see a call to strcmp which catches our eye because it seems reasonable to ass
 
 Immediately before, we see two mov commands - those could be our two usernames. So, let's just set a breakpoint before strcmp and see whats in the registers.
 
-`break *0x000055555555525a`
+``` 
+break *0x000055555555525a`
 
 run
+```
 
 The program runs, we input our username, and our breakpoint halts just before jumping into strcmp. From disassembling the function, we know the addresses
 to our two strings should now be stored in rax and rdx. So...
