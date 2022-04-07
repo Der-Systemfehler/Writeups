@@ -50,7 +50,7 @@ $2 = 0x7fffffffe2d0 "systemfehler"
 print $rdx
 $3 = 140737488347986
 
-rint (char*) 140737488347986
+print (char*) 140737488347986
 $4 = 0x7fffffffe352 "*************"
 ```
 
